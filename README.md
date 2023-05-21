@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+# Stocks - Frontend
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is the frontend of this [single-page application](https://stocks.vlgdata.io/) displaying live data about 3 Big Tech stocks.
 
-## Recommended IDE Setup
+It is implemented with the javascript framework Vue 3 (Component API) and built with Vite.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This frontend is deployed by Netlify from this repo (folder `dist`) with CI/CD.
+
+The backend lives in this [repository](https://github.com/datatrigger/stocks_backend).
