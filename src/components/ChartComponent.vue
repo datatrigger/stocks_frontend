@@ -28,7 +28,6 @@
 
 <template>
     <h2>Performance of 3 Big Tech stocks over the last 10 business days</h2>
-    <h3><i>Refresh the page to get live updates</i></h3>
     <div>
         <canvas id="myChart"></canvas>
     </div>
