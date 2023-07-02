@@ -1,6 +1,6 @@
 <script setup>
 import ChartComponent from './components/ChartComponent.vue'
-import TableComponent from './components/TableComponent.vue'
+// import TableComponent from './components/TableComponent.vue'
 </script>
 
 <template>
@@ -15,9 +15,9 @@ import TableComponent from './components/TableComponent.vue'
   <Suspense>
     <ChartComponent/>
   </Suspense>
-  <Suspense>
+  <!-- <Suspense>
     <TableComponent/>
-  </Suspense>
+  </Suspense> -->
 </template>
 
 
