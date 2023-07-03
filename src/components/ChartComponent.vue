@@ -4,8 +4,12 @@
     import { ref, onMounted } from 'vue'
 
     const results = ref(null);
-    const res = await fetch("https://stocks-backend-2peshcrm3a-oa.a.run.app/data");
-    results.value = await res.json();
+    const response = await fetch("https://stocks-backend-2peshcrm3a-oa.a.run.app/data");
+    if (!response.ok) {
+        const message = `An error has occured: ${response.status}`;
+        throw new Error(message);
+    }
+    results.value = await response.json();
     
     onMounted( () => { 
 
