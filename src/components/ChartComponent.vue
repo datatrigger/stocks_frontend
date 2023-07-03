@@ -31,7 +31,7 @@
 </script>
 
 <template>
-    <h2>Performance of 3 Big Tech stocks over the last 10 business days</h2>
+    <h2 style="color:black;">Performance of 3 Big Tech stocks over the last 10 business days</h2>
     <div>
         <canvas id="myChart"></canvas>
     </div>
