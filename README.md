@@ -1,9 +1,6 @@
-# Stocks - Frontend
+This application shows live data about trading stock prices for Amazon, Google and Microsoft.
 
-This is the frontend of this [single-page application](https://stocks.vlgdata.io/) displaying live data about 3 Big Tech stocks.
-
-It is implemented with JavaScript framework Vue.js (version 3, Component API) and built with Vite.
-
-This frontend is deployed by Netlify from this repo (folder `dist`) with CI/CD.
-
-The backend lives in this [repository](https://github.com/datatrigger/stocks_backend), where more general information is to be found.
+* [Single-page application](https://stocks.vlgdata.io/)
+* [Blog post](https://blog.vlgdata.io/post/full_stack_data_engineering/)
+* [FastAPI Backend](https://github.com/datatrigger/stocks_backend)
+* Vue Frontend: hosted here
